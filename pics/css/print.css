@@ -1,0 +1,23 @@
+body
+{
+  color : #000000;
+  background : #ffffff;
+  font-family : "Times New Roman", Times, serif;
+  font-size : 12pt;
+}
+#navigation
+{
+    display: none;
+}
+img
+{
+    display:none;
+    visibility: hidden;
+}
+
+a:link:after,
+a:visited:after
+{
+    font-size : 12pt;
+    content: " ("attr(href) ") ";
+}

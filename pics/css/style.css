@@ -1,0 +1,122 @@
+#background
+{
+    width:1024px;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(#627199, #A6ABB8 ,#627199);
+    overflow:auto;
+    font-family:Arial;
+}
+
+#header
+{
+    background-color:#627199 ;
+    width:1024px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:150%;
+    background-image: url(../vektorgrafik.svg);
+    background-size: 250px 250px;
+    background-position: left 3px center;
+    background-repeat: no-repeat;
+}
+#navigation 
+    {
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #A6ABB8;
+    float:left;
+    width:220px;
+    }
+    #navigation ul 
+    {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    #navigation ul li a
+    {
+    text-decoration: none;
+    padding: 55px 25px;
+    color: blue;
+    display:block;
+    }
+    #navigation ul li a:visited
+    {
+    color: Black;
+    }
+    #navigation ul li a:hover
+    {
+    color: white;
+    background-color: #17223D;
+    }
+    .active
+    {
+    font-weight: 800;
+    font-size:125%;
+    text-align:right;
+    }
+
+#content
+ {
+    background-color:#DADCDC; 
+    float:left;
+    width:775px;
+    height:auto;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+#footer
+ {
+    font-size:125%;
+    text-align:center;
+    background-color:#627199;
+    float:left;
+    width:1024px;
+    text-align:center;
+    height:100px;
+    background-image: url(../labbild.jpg);
+    background-size: 100px 100px;
+    background-position: right 20px center;
+    background-repeat: no-repeat;
+ }
+.link
+{
+    list-style:none;
+    font-size:120%;
+}
+.right
+{
+    float:right;
+    margin:10px;
+    padding:10px;
+}
+.left /*om jag nu skall lägga in bild till vänster*/
+{
+    float:left;
+}
+table, td, th
+{
+   margin-left:215px;
+   text-align:center;
+   border: 2px Solid Navy;
+}
+#loggrubrik
+{
+    background-image: url(../vektorgrafik.svg);
+    background-size: 50px 50px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    top: 75%;
+}
+@media print
+{
+navigation, header, footer
+{
+    display:none
+}
+
+        
+}
