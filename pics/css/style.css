@@ -30,19 +30,53 @@
     float:left;
     width:220px;
     }
+
     #navigation ul 
     {
     list-style-type: none;
     margin: 0;
     padding: 0;
     }
+
     #navigation ul li a
     {
     text-decoration: none;
-    padding: 55px 25px;
+    padding: 24px 24px;
     color: blue;
     display:block;
     }
+    #navigation a
+    {
+    background-image: url("../sprite.png");
+    display:block;
+    background-repeat: no-repeat;
+    }
+
+.index
+{background-position: 0px -24px;}
+
+.laborationer
+{background-position: 0px -120px;}
+
+.presentation
+{background-position: 0px -218px;}
+
+.kontakt
+{background-position: 0px -312px;}
+
+.index:hover
+{background-position: 0px 24px;}
+
+.laborationer:hover
+{background-position: 0px -70px;}
+
+.presentation:hover
+{background-position: 0px -169px;}
+
+.kontakt:hover
+{background-position: 0px -265px;}
+
+    
     #navigation ul li a:visited
     {
     color: Black;
@@ -54,8 +88,6 @@
     }
     .active
     {
-    font-weight: 800;
-    font-size:125%;
     text-align:right;
     }
 
