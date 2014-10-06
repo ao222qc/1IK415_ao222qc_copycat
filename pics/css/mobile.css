@@ -1,0 +1,62 @@
+@media screen and (max-device-width: 480px) {
+
+#background
+{
+    width:480px;
+}
+
+table
+{
+    margin-left:2px;
+}
+
+#header
+{
+    width:auto;
+    text-align:center;
+    background-size: 100px, 100px;
+}
+#navigation 
+{
+    float:none;
+    width:480px;
+    text-align:center;
+}
+#content
+{
+  width:480px;
+  padding: 0;
+  margin: 0;
+}    
+#footer
+{
+    width:480px;
+    font-size:85%;
+    background-position:right;
+    text-align:left;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
