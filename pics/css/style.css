@@ -151,23 +151,5 @@ navigation, header, footer
 }
 }
 
-@media only screen and (max-device-width: 480px)
-{
-#background
-{
-    max-width:480px;
-}
-#header
-{
-    max-width:480px;
-    width:100%;
-}
-#navigation
-{
-    width:200px;
-}
 
-
-    
-}
         

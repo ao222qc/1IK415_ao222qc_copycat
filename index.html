@@ -5,20 +5,23 @@
         <title>Bloggindex</title>
         <link rel="stylesheet" href="pics/css/style.css" media="screen">
         <link rel="stylesheet" href="pics/css/print.css" media ="print">
-       <link rel="stylesheet" href="pics/css/mobile.css" media="screen and (max-device-width: 480px") />
+       <link rel="stylesheet" href="pics/css/mobile.css" media="screen and (min-device-width: 320px) and (max-device-width: 480px") />
+       <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
     </head>
 <body>
+<div id="background">
     <div id="header">
     <h1>Hej, bloggen</h1>    
     <h3>Statusrapportering</h3>
     </div>
-    <div id="background">
+   
     <div id="navigation">
     <ul>
         <li class="active"><a class="index" href="index.html">Start</a></li>
         <li><a class="laborationer" href="pages/laborationer.html">Laborationer</a></li>
         <li><a class="presentation" href="pages/presentation.html">Presentation</a></li>
         <li><a class="kontakt" href="pages/kontakt.html">Kontakt</a></li>
+        
     </ul>
     
     </div>
@@ -27,7 +30,7 @@
         <h1 id="loggrubrik">Första blogginlägg</h1>
         <h3>Spännande</h3>
     
-    <img src="pics/loga.png" alt="">
+    <img id="loga" src="pics/loga.png" alt="">
     
     <p> 
         Här skriver jag ett slags blogginlägg för att rapportera om hur laborationen fortgår. 
@@ -86,8 +89,8 @@
     </div>
 
       <div id="footer">
-        <p>Adams första hemsideprojekt skapat under hösten 2014</p>
-        <p>Detta är en fot fylld av text bara för att det ska se lite sorterat ut.</p>
+        <p>Adams första hemsideprojekt</p> 
+        <p>Skapat under hösten 2014</p>
     </div>
     </div>
 </body>
