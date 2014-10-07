@@ -27,7 +27,7 @@ table
 }
 #navigation 
 {
-    min-width:320px;
+   min-width:100%;
     max-width:100%;
     float:none;
     text-align:center;

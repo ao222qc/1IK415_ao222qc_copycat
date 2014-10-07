@@ -143,12 +143,10 @@ table, td, th
     background-repeat: no-repeat;
     top: 75%;
 }
-@media print
+#mobilepreview
 {
-navigation, header, footer
-{
-    display:none
-}
+    height:80%;
+    width:80%;
 }
 
 
