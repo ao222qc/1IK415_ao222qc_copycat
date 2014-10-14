@@ -49,22 +49,65 @@ Nav ul li a:hover
   color:Maroon;    
 }
 
-
 Main
 {
     margin: 0 auto;
     float:left;
+    height:auto;
 }
 Article
 {
-    
     float:left;
     width:50%;
     height:auto;
+    background-color:gray;
+}
+Section
+{
+    width:40%;
+    float:left;
+    margin:25px;
 }
 .left
 {
     margin:5px;
-    padding:5pxpx;
+    padding:5px;
     float:left;
+}
+.right
+{
+    float:right;
+}
+Aside
+{
+    width:49%;
+    float:right;
+    background-color:Gray;
+    border-style:solid;
+    border-color:Navy;
+    border-width:5px;
+    height:auto;
+}
+Aside ul
+{
+    
+    width:1%;
+    font-size:125%;
+    text-decoration:none;
+
+}
+Aside ul li 
+{
+    width:50px;
+    float:left;
+    padding:30px;
+    margin:25px;
+}
+Footer
+{
+    font-size:125%;
+    float:left;
+    width:100%;
+    background-color:Maroon;
+    text-align:center;
 }

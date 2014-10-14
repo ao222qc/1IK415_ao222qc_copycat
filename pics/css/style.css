@@ -149,5 +149,9 @@ table, td, th
     width:150px;
 }
 
-
-        
+#kontaktruta
+{
+    padding:25px;
+    float:left;
+    width:100%;
+}
