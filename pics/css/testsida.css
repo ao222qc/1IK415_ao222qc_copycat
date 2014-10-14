@@ -1,0 +1,70 @@
+body
+{
+    margin: 0 auto;
+    width:1024px;
+    height:auto;
+    font-family:Arial;
+}
+Header
+{
+    text-align:center;
+    background-color:Maroon;
+    height:75px;
+    background-image: url("../vektorgrafik.svg");
+    background-size:75px 75px;
+    background-repeat:no-repeat;
+}
+Nav
+{
+    font-size: 150%;
+    font-weight: bold;
+    background-color: black;
+    width:1024px;
+    display:block;
+    float:left;
+}
+    Nav ul 
+    {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    Nav ul li a
+    {
+    text-decoration: none;
+    padding: 24px 24px;
+    color: white;
+    text-align:center;
+    }
+ 
+Nav ul li
+{
+    float:left;
+    margin:20px;
+    margin-left:70px;
+}
+Nav ul li a:hover
+{
+  color:Maroon;    
+}
+
+
+Main
+{
+    margin: 0 auto;
+    float:left;
+}
+Article
+{
+    
+    float:left;
+    width:50%;
+    height:auto;
+}
+.left
+{
+    margin:5px;
+    padding:5pxpx;
+    float:left;
+}
