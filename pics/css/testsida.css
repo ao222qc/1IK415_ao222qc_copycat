@@ -96,17 +96,17 @@ Aside
 }
 Aside ul
 {
-    
     width:1%;
     font-size:125%;
     text-decoration:none;
-
 }
 Aside ul li 
 {
+    list-style-type:none;
     width:50px;
-    float:left;
+    float:none;
 }
+
 Footer
 {
     font-size:125%;
@@ -115,7 +115,7 @@ Footer
     background-color:Maroon;
     text-align:center;
 }
-#comment
+.comment
 {
     
     font-size:70%;
