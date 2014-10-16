@@ -5,41 +5,56 @@
 }
 #images
 {
-    height:700px;
-    float:left;
+    
+    height:800px;
     text-decoration:none;
-    z-index:0;
+    z-index:0;    
     text-align:center;
     box-shadow: 20px 20px 10px gray;
     position:relative;
+    top:75px;
+    width:1200px;
 }
-img:hover
-{   -webkit-transition: width 1s, height 1s, transform 1s;
-    transition: width 1s, height 1s, transform 1s;
-    width:400px;
-    height:350px;
+#images a:nth-child(n) img:hover
+{   -webkit-transition: all 1s;
+    transition: all 1s;
+    width:300px;
+    height:250px;
+    z-index:100;
+    box-shadow: 20px 15px 10px gray;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    z-index:100;
 }
+#images a:focus img:nth-child(n)
+{   -webkit-transition: all 1s;
+    transition: all 1s;
+    width:300px;
+    height:250px;
+    z-index:100;
+    box-shadow: 20px 15px 10px gray;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
 #images a:after
 {
-    font-size:150%;
+    font-size:100%;
     color:red;
     content: attr(title);
     position:relative;
-    top:5px;
-    text-align:center;
-  
-}
-img
-{
-    width:300px;
-    height:250px;
-    box-shadow: 10px 10px 5px gray;
+    z-index:15;
 }
 
-#images a:nth-child(1) img
+img
+{
+    width:200px;
+    height:150px;
+    box-shadow: 10px 10px 5px gray;
+    padding:10px 10px 75px;
+}
+
+#images a:nth-child(1n) img
 {
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);

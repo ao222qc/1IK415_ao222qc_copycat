@@ -4,6 +4,7 @@ body
     width:1024px;
     height:auto;
     font-family:Arial;
+    
 }
 Header
 {
@@ -13,6 +14,7 @@ Header
     background-image: url("../vektorgrafik.svg");
     background-size:75px 75px;
     background-repeat:no-repeat;
+    width:100%;
 }
 Nav
 {
@@ -54,17 +56,21 @@ Main
     margin: 0 auto;
     float:left;
     height:auto;
+    background-color:#778899;
 }
 Article
 {
     float:left;
-    width:50%;
+    width:55%;
     height:auto;
-    background-color:gray;
+    background-color:#B8B8B8 ;
+    margin-left:9px;
+    margin-top:9px;
+    margin-bottom:9px;
 }
 Section
 {
-    width:40%;
+    width:35%;
     float:left;
     margin:25px;
 }
@@ -80,13 +86,13 @@ Section
 }
 Aside
 {
-    width:49%;
+    width:40%;
     float:right;
-    background-color:Gray;
-    border-style:solid;
-    border-color:Navy;
+    background-color:#B8B8B8 ;
     border-width:5px;
-    height:auto;
+    height:100%;
+    margin-right:9px;
+    margin-top:9px;
 }
 Aside ul
 {
@@ -100,8 +106,6 @@ Aside ul li
 {
     width:50px;
     float:left;
-    padding:30px;
-    margin:25px;
 }
 Footer
 {
@@ -110,4 +114,10 @@ Footer
     width:100%;
     background-color:Maroon;
     text-align:center;
+}
+#comment
+{
+    
+    font-size:70%;
+    float:none;
 }
